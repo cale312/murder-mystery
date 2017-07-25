@@ -1,0 +1,22 @@
+{
+  "name": "murder_mystery",
+  "version": "1.0.0",
+  "description": "detective simulator",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "cale oasin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "mongoose": "*",
+    "mocha": "*"
+  },
+ "devDependecies": {
+    "nodemon": "*"
+  }
+}
